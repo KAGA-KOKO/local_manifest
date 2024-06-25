@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+        <remote name="user"
+        fetch="https://github.com/VIOLET-EVERGARDE" />
+
+        <!-- Sync trees -->
+        <project path="device/OPPO/OP4BFB" name="tree-OPPO-A12" remote="user" revision="main" />
+        <project path="vendor/OPPO/OP4BFB" name="vendor-OP4BFB" remote="user" revision="main" />
+        <project path="kernel/OPPO/OP4BFB" name="kernel_oppo_OP4BFB" remote="user" revision="android-9.0" />
+       
+</manifest>
