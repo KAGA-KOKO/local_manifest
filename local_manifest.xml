@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-        <remote name="user"
-        fetch="https://github.com/KAGA-KOKO" />
 
-        <!-- Sync trees -->
+     <!-- Remote -->
+     <remote name="cl"
+     fetch="https://github.com/KAGA-KOKO" />
+     <remote name="user"
+     fetch="https://github.com/Assunzain" />
+    
+            <!-- Sync trees -->
         <project path="device/oppo/OP4BFB" name="android-aospdtgen-OP4BFB " remote="user" revision="main" />
         <project path="vendor/oppo/OP4BFB" name=" android-vendor-OP4BFB " remote="user" revision="main" />
         <project path="kernel/oppo/OP4BFB" name=" kernel_CPH2083 " remote="user" revision="main" />
-       
+               
+   <!-- Clang -->
+   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="cl" revision="master" clone-depth="1" />
+
 </manifest>
