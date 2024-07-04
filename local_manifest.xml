@@ -4,14 +4,14 @@
 
      <!-- Remote -->
      <remote name="cl"
-     fetch="https://github.com/KAGA-KOKO" />
+     fetch="https://github.com/kdrag0n" />
      <remote name="user"
-     fetch="https://github.com/Assunzain" />
+     fetch="https://github.com/KAGA-KOKO" />
     
             <!-- Sync trees -->
-        <project path="device/oppo/OP4BFB" name="android-device-OP4BFB " remote="user" revision="android-9.0" />
-        <project path="vendor/oppo/OP4BFB" name=" android-vendor-OP4BFB " remote="user" revision="android-9.0" />
-        <project path="kernel/oppo/OP4BFB" name=" android-kernel-OP4BFB " remote="user" revision="android-9.0" />
+        <project path="device/oppo/OP4BFB" name=" android-device-OP4BFB " remote="user" revision=" android-9.0 " />
+        <project path="vendor/oppo/OP4BFB" name=" android-vendor-OP4BFB " remote="user" revision=" android-9.0 " />
+        <project path="kernel/oppo/OP4BFB" name=" android-kernel-OP4BFB " remote="user" revision=" android-9.0 " />
                
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="cl" revision="master" clone-depth="1" />
