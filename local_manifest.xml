@@ -8,7 +8,7 @@
     
             <!-- Sync trees -->
         <project path="device/oppo/OP4BFB" name="android-device-OP4BFB" remote="user" revision="android-9.0" />
-        <project path="vendor/oppo/OP4BFB" name="android_vendor_OP4BFB" remote="user" revision="android-9.0" />
+        <project path="vendor/oppo/OP4BFB" name="android-vendor-OP4BFB" remote="user" revision="android-9.0" />
         <project path="kernel/oppo/OP4BFB" name="android-kernel-OP4BFB" remote="user" revision="android-9.0" />
                
 </manifest>
